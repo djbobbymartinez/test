@@ -2,11 +2,21 @@ body {
   text-align: center;
 }
 
-h1 {
+.heading {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.jpg");
+  background-position: 45%;
+}
+
+.heading h1 {
   font-family: Helvetica;
   font-size: 70px;
   font-weight: bold;
   color: white;
-  background-image: url("https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.jpg");
-  background-position: 45%;
+
+}
+
+.heading p {
+  font-family: Helvetica;
+  font-size: 18px;
+  color: white;
 }
